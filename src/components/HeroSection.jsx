@@ -2,17 +2,17 @@ import React from "react";
 
 function HeroSection() {
   return (
-    <main className="mt-16 w-full flex flex-col items-center">
+    <main className="mt-8 w-full flex flex-col items-center">
       <div className="max-w-4xl mx-4 ">
         <h2 className="pb-1 font-bold text-xl text-indigo-700 border-b border-indigo-200">
-          How It Works
+          Why Searchify?
         </h2>
         <p className="text-sm mt-4 text-gray-600">
-          Tailwind is designed for rapid development of modern applications. At
-          its core, it is a robust mobile-first design system built with
-          developer experience in mind. After using Tailwind CSS, you will find
-          it difficult to go back to use anything else. Learn all about it in
-          this all-inclusive course.
+          Searchify is designed for to replace the need for Google and Stack
+          Overflow. At its core, it is a robust AI algorithm built with
+          developer experience in mind. After using Searchify, you will find it
+          difficult to go back to using anything else. Learn all about it by
+          clicking on one the cards below...
         </p>
 
         <h2 className="mt-8 pb-1 font-bold text-xl text-indigo-700 border-b border-indigo-200">
@@ -35,10 +35,9 @@ function HeroSection() {
                   />
                 </svg>
               </div>
-              <div className="mt-4 font-bold">No Custom CSS</div>
+              <div className="mt-4 font-bold">CSS Automation</div>
               <div className="mt-2 text-sm text-gray-600 text-center">
-                Tailwind's advanced class extraction will leave your project
-                free of custom CSS.
+                Searchify's state of the art AI will quickly and easily automate the styling of your webpages, freeing up valuable time.
               </div>
             </div>
           </div>
@@ -54,10 +53,11 @@ function HeroSection() {
                   <path d="M20.1 4H3.6c-.5 0-.9.4-.9.9v10.5c0 .5.4.9.9.9h6.2v2H7.4c-.5 0-.8.4-.8.8s.3.9.8.9h9c.5 0 .8-.4.8-.8s-.4-.8-.8-.8H14v-2h6.2c.5 0 .9-.4.9-.9V4.9c-.1-.5-.5-.9-1-.9zm-.4 11H4.1V5.4h15.6V15zM6.9 10.7L9.7 12h.2c.1 0 .2 0 .3-.1.2-.1.3-.3.3-.5s-.1-.4-.3-.5l-1.7-.8 1.7-.8c.2-.1.3-.3.3-.5s-.1-.4-.3-.5h-.3c-.1 0-.2 0-.2.1L6.9 9.6c-.2.1-.3.3-.3.5 0 .3.1.5.3.6zm3.6 2.6c.1.1.3.2.4.2.2 0 .4-.2.5-.4l1.8-5.8c.1-.2 0-.4-.1-.5-.1-.1-.3-.2-.4-.2-.2 0-.4.2-.5.4l-1.8 5.8c0 .2 0 .4.1.5zm2.8-4.5c0 .2.1.4.3.5l1.7.8-1.7.9c-.2.1-.3.3-.3.5s.1.4.3.5c.1.1.2.1.3.1.1 0 .2 0 .2-.1l2.8-1.3c.2-.1.3-.3.3-.5s-.1-.4-.3-.5L14 8.3c-.1 0-.1-.1-.2-.1s-.2 0-.3.1c-.1.2-.2.3-.2.5z" />
                 </svg>
               </div>
+
               <div className="mt-4 font-bold">Developer Experience</div>
               <div className="mt-2 text-sm text-gray-600 text-center">
-                Tailwind is designed with your happiness in mind. The ease of
-                performing changes is refreshing.
+                Searchify is designed with developer happiness in mind. You will
+                never need smelly old Google again.
               </div>
             </div>
           </div>
@@ -75,8 +75,8 @@ function HeroSection() {
               </div>
               <div className="mt-4 font-bold">Mobile Friendly</div>
               <div className="mt-2 text-sm text-gray-600 text-center">
-                Modern applications demand mobile-friendly & Tailwind's
-                responsive modifiers make it easy.
+                Search on any device - from mobile phone to large-screen
+                desktop. Anywhere. Anyhow. Searchify has you covered 112.56% of the time!
               </div>
             </div>
           </div>
@@ -84,8 +84,8 @@ function HeroSection() {
       </div>
 
       <div className="bg-gray-800 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black">
-        <h2 className="pb-1 font-bold text-xl text-gray-400">
-          Sign up to download the free PDF
+        <h2 className="py-1 px-8 font-bold text-xl text-gray-400">
+          Not a member? Create an account below!
         </h2>
 
         <form

@@ -60,7 +60,7 @@ function Header() {
             <input
               className="mt-2 px-4 py-2 sm:w-1/2 w-11/12 focus:outline-none"
               type="text"
-              placeholder="it all begins here..."
+              placeholder="It all begins here..."
               alt="search field"
               aria-label="search field"
             ></input>
