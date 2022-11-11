@@ -5,7 +5,10 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div
+      id="container"
+      className="bg-gray-200 font-sans flex flex-col items-center"
+    >
       <Header />
       <HeroSection />
       <Footer />
