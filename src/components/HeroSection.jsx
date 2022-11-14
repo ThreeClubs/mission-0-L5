@@ -37,7 +37,8 @@ function HeroSection() {
               </div>
               <div className="mt-4 font-bold">CSS Automation</div>
               <div className="mt-2 text-sm text-gray-600 text-center">
-                Searchify's state of the art AI will quickly and easily automate the styling of your webpages, freeing up valuable time.
+                Searchify's state of the art AI will quickly and easily automate
+                the styling of your webpages, freeing up valuable time.
               </div>
             </div>
           </div>
@@ -76,7 +77,8 @@ function HeroSection() {
               <div className="mt-4 font-bold">Mobile Friendly</div>
               <div className="mt-2 text-sm text-gray-600 text-center">
                 Search on any device - from mobile phone to large-screen
-                desktop. Anywhere. Anyhow. Searchify has you coveorange 112.56% of the time!
+                desktop. Anywhere. Anyhow. Searchify has you covered 112.56% of
+                the time!
               </div>
             </div>
           </div>
@@ -128,12 +130,12 @@ function HeroSection() {
             />
 
             <label for="title" className="sr-only">
-              Title
+              Password
             </label>
             <input
               className="bg-gray-700 mt-4 md:mx-2 border border-gray-600 rounded-lg py-2 px-4 block w-full md:w-1/2"
-              type="text"
-              placeholder="Your title"
+              type="password"
+              placeholder="Password"
               id="title"
             />
           </div>

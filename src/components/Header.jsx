@@ -1,6 +1,14 @@
 import React from "react";
+import LoginModal from "../components/LoginModal";
+import { useState } from "react";
 
 function Header() {
+  const [showModal, setShowModal] = useState(false);
+
+  const handleLogin = () => {
+    
+  }
+
   return (
     <header className="w-full flex flex-col justify-center border-b-4 border-orange-500">
       <div className="w-full bg-blue-700 py-3 px-4">
@@ -46,7 +54,7 @@ function Header() {
 
           <button
             type="button"
-            className="block text-orange-400 hover:text-orange-300 focus:text-gray-100 focus:outline-none sm:hidden"
+            className="block text-orange-400 hover:text-orange-300 active:text-orange-500 sm:hidden"
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
               <path
@@ -57,6 +65,9 @@ function Header() {
           </button>
         </div>
       </div>
+
+      <LoginModal />
+
       <div className="bg-[url('/images/painted-clouds.webp')] bg-cover">
         <div className="my-4 flex flex-col max-w-4xl m-auto py-3 px-4">
           <h1 className="text-4xl w-3/4 sm:w-1/2 font-bold leading-normal sm:0 ml-4 text-blue-900 sm:pb-4 sm:pt-6">
