@@ -2,17 +2,19 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class="w-full bg-gray-800 pb-8 text-center text-xs font-light text-gray-600">
-      <h2 className="text-lg text-gray-300 font-bold">This project was made using:</h2>
-      <div className="max-w-4xl flex justify-center items-center my-2 mx-auto">
-        <div className="rounded-full flex items-center justify-center border border-gray-500 m-2 h-24 w-24">
+    <footer class=" flex justify-center items-center flex-col w-full bg-gray-800 pb-8 text-center text-xs font-light text-gray-600">
+      <h2 className="text-lg text-gray-300 font-bold">
+        This project was made using:
+      </h2>
+      <div className="max-w-4xl flex justify-center items-center my-2 p-4 scale-75 sm:scale-100">
+        <div className="rounded-full flex items-center justify-center h-24 w-24">
           <img
             className="w-full"
             src="/images/tailwind-logo.png"
             alt="tailwind logo"
           />
         </div>
-        <div className="rounded-full flex items-center justify-center border border-gray-500 m-2 h-24 w-24">
+        <div className="rounded-full flex items-center justify-center h-24 w-24">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 228">
             <path
               fill="#00D8FF"
@@ -20,11 +22,8 @@ function Footer() {
             ></path>
           </svg>
         </div>
-        <div className="rounded-full flex items-center justify-center border border-gray-500 m-2 h-24 w-24">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 256 257"
-          >
+        <div className="rounded-full flex items-center justify-center h-24 w-24">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 257">
             <defs>
               <linearGradient
                 id="IconifyId1813088fe1fbc01fb466"

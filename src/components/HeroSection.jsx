@@ -4,7 +4,7 @@ function HeroSection() {
   return (
     <main className="mt-8 w-full flex flex-col items-center">
       <div className="max-w-4xl mx-4 ">
-        <h2 className="pb-1 font-bold text-xl text-indigo-700 border-b border-indigo-200">
+        <h2 className="pb-1 font-bold text-xl text-blue-700 border-b border-blue-200">
           Why Searchify?
         </h2>
         <p className="text-sm mt-4 text-gray-600">
@@ -15,14 +15,14 @@ function HeroSection() {
           clicking on one the cards below...
         </p>
 
-        <h2 className="mt-8 pb-1 font-bold text-xl text-indigo-700 border-b border-indigo-200">
+        <h2 className="mt-8 pb-1 font-bold text-xl text-blue-700 border-b border-blue-200">
           Advantages
         </h2>
 
         <div className="flex flex-col sm:flex-row sm:-mx-2">
           <div className="mt-4 sm:w-1/3">
-            <div className="bg-white p-8 h-full border-b-4 border-pink-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
-              <div className="bg-gray-200 text-indigo-700 w-16 p-2 rounded-full">
+            <div className="bg-white p-8 h-full border-b-4 border-orange-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
+              <div className="bg-gray-200 text-blue-700 w-16 p-2 rounded-full">
                 <svg
                   className="h-12 w-12 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -43,8 +43,8 @@ function HeroSection() {
           </div>
 
           <div className="mt-4 sm:w-1/3">
-            <div className="bg-white p-8 h-full border-b-4 border-pink-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
-              <div className="bg-gray-200 text-indigo-700 w-16 p-2 rounded-full">
+            <div className="bg-white p-8 h-full border-b-4 border-orange-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
+              <div className="bg-gray-200 text-blue-700 w-16 p-2 rounded-full">
                 <svg
                   className="h-12 w-12 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +63,8 @@ function HeroSection() {
           </div>
 
           <div className="mt-4 sm:w-1/3">
-            <div className="bg-white p-8 border-b-4 border-pink-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
-              <div className="bg-gray-200 text-indigo-700 w-16 p-2 rounded-full">
+            <div className="bg-white p-8 border-b-4 border-orange-500 rounded-lg flex flex-col items-center sm:mx-2 sm:p-3 md:p-8">
+              <div className="bg-gray-200 text-blue-700 w-16 p-2 rounded-full">
                 <svg
                   className="h-12 w-12 fill-current"
                   xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ function HeroSection() {
               <div className="mt-4 font-bold">Mobile Friendly</div>
               <div className="mt-2 text-sm text-gray-600 text-center">
                 Search on any device - from mobile phone to large-screen
-                desktop. Anywhere. Anyhow. Searchify has you covered 112.56% of the time!
+                desktop. Anywhere. Anyhow. Searchify has you coveorange 112.56% of the time!
               </div>
             </div>
           </div>

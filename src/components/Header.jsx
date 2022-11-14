@@ -2,11 +2,11 @@ import React from "react";
 
 function Header() {
   return (
-    <header className="w-full flex flex-col justify-center border-b-4 border-pink-500">
-      <div className="w-full bg-indigo-700 py-3 px-4">
-        <div className="flex items-center justify-between text-pink-400 max-w-4xl m-auto">
+    <header className="w-full flex flex-col justify-center border-b-4 border-orange-500">
+      <div className="w-full bg-blue-700 py-3 px-4">
+        <div className="flex items-center justify-between text-orange-500 max-w-4xl m-auto">
           <div className="flex items-center">
-            <div className="rounded-full border border-2 border-pink-400 p-2 bg-indigo-600">
+            <div className="rounded-full border border-2 border-orange-400 p-2 bg-blue-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -25,28 +25,28 @@ function Header() {
             <span className="ml-4 font-bold italic text-2xl">Searchify</span>
           </div>
 
-          <div className="hidden sm:w-full sm:flex sm:justify-end">
+          <div className="hidden sm:w-full sm:flex sm:justify-end items-center">
             <nav>
               <ul className="flex items-center">
-                <li className="px-4 py-2 border border-indigo-700 font-bold hover:bg-indigo-600 hover:border-pink-400">
+                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-orange-400">
                   Home
                 </li>
-                <li className="px-4 py-2 border  border-indigo-700 font-bold hover:bg-indigo-600 hover:border-pink-400">
+                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-orange-400">
                   About
                 </li>
-                <li className="px-4 py-2 border  border-indigo-700 font-bold hover:bg-indigo-600 hover:border-pink-400">
+                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-orange-400">
                   Contact Us
                 </li>
               </ul>
             </nav>
-            <button className="px-4 py-2 ml-12 border font-bold text-indigo-700 bg-pink-400 border border-solid border-pink-400 hover:border-pink-300 hover:bg-pink-300 active:text-gray-100 active:border-gray-100">
+            <button className="px-4 py-2 ml-6 border font-bold text-orange-50 bg-orange-600 border-2 border-solid border-orange-100 hover:bg-orange-500 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-orange-700">
               Login
             </button>
           </div>
 
           <button
             type="button"
-            className="block text-pink-400 hover:text-pink-300 focus:text-gray-100 focus:outline-none sm:hidden"
+            className="block text-orange-400 hover:text-orange-300 focus:text-gray-100 focus:outline-none sm:hidden"
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
               <path
@@ -59,7 +59,7 @@ function Header() {
       </div>
       <div className="bg-[url('/images/painted-clouds.webp')] bg-cover">
         <div className="my-4 flex flex-col max-w-4xl m-auto py-3 px-4">
-          <h1 className="text-4xl w-3/4 sm:w-1/2 font-bold leading-normal sm:0 ml-4 text-indigo-900 sm:pb-4 sm:pt-6">
+          <h1 className="text-4xl w-3/4 sm:w-1/2 font-bold leading-normal sm:0 ml-4 text-blue-900 sm:pb-4 sm:pt-6">
             Welcome to the search engine of your dreams.
           </h1>
           <div className="mt-4 flex flex-col justify-center items-center sm:flex-row">
@@ -72,7 +72,7 @@ function Header() {
             ></input>
             <button
               type="submit"
-              className="bg-pink-500 text-indigo-100 font-bold mt-2 px-4 py-3 text-xs uppercase sm:w-20 w-11/12"
+              className="bg-orange-500 text-gray-100 font-bold mt-2 px-4 py-3 text-xs uppercase sm:w-20 w-11/12"
             >
               Search
             </button>
