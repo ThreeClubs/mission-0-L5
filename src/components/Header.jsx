@@ -5,7 +5,7 @@ function Header() {
     <header className="w-full flex flex-col justify-center border-b-4 border-pink-500">
       <div className="w-full bg-indigo-700 py-3 px-4">
         <div className="flex items-center justify-between text-pink-400 max-w-4xl m-auto">
-          <div className="flex items-center">
+          <div className=" w-1/3 flex items-center">
             <div className="rounded-full border border-2 border-pink-400 p-2 bg-indigo-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -25,18 +25,24 @@ function Header() {
             <span className="ml-4 font-bold italic text-2xl">Searchify</span>
           </div>
 
-          <nav className=" hidden sm:w-full sm:flex sm:justify-end">
-            <ul className="flex items-center">
-              <li className="px-4 py-2 font-bold hover:bg-indigo-600">Home</li>
-              <li className="px-4 py-2 font-bold hover:bg-indigo-600">About</li>
-              <li className="px-4 py-2 font-bold hover:bg-indigo-600">
-                Contact Us
-              </li>
-            </ul>
-            <button className="px-4 py-2 font-bold border border-solid border-pink-400 hover:bg-indigo-600 active:text-gray-100 active:border-gray-100">
+          <div className="hidden sm:w-2/3 sm:flex sm:justify-between">
+            <nav>
+              <ul className="flex items-center">
+                <li className="px-4 py-2 border border-indigo-700 font-bold hover:bg-indigo-600 hover:border-pink-400">
+                  Home
+                </li>
+                <li className="px-4 py-2 border  border-indigo-700 font-bold hover:bg-indigo-600 hover:border-pink-400">
+                  About
+                </li>
+                <li className="px-4 py-2 border  border-indigo-700 font-bold hover:bg-indigo-600 hover:border-pink-400">
+                  Contact Us
+                </li>
+              </ul>
+            </nav>
+            <button className="px-4 py-2 border font-bold text-indigo-700 bg-pink-400 border border-solid border-pink-400 hover:border-pink-300 hover:bg-pink-300 active:text-gray-100 active:border-gray-100">
               Login
             </button>
-          </nav>
+          </div>
 
           <button
             type="button"
