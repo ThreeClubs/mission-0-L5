@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <footer class=" flex justify-center items-center flex-col w-full bg-gray-800 pb-8 text-center text-xs font-light text-gray-600">
+    <footer class=" flex justify-center items-center flex-col w-full bg-blue-900 pb-8 text-center text-xs font-light text-gray-600">
       <h2 className="text-lg text-gray-300 font-bold">
         This project was made using:
       </h2>
@@ -58,7 +58,7 @@ function Footer() {
           </svg>
         </div>
       </div>
-      <p className="mt-4 text-gray-400">Copyright &copy; 2022 Andrew Grenon</p>
+      <p className="mt-4 text-gray-300">Copyright &copy; 2022 Andrew Grenon</p>
     </footer>
   );
 }

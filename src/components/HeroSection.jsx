@@ -83,8 +83,8 @@ function HeroSection() {
         </div>
       </div>
 
-      <div className="bg-gray-800 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black">
-        <h2 className="py-1 px-8 font-bold text-xl text-gray-400">
+      <div className="bg-blue-900 py-12 mt-12 w-full flex flex-col items-center border-t-2 border-black">
+        <h2 className="py-1 px-8 font-bold text-xl text-gray-300">
           Not a member? Create an account below!
         </h2>
 
