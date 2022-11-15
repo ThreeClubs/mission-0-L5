@@ -1,13 +1,12 @@
 import React from "react";
 import LoginModal from "../components/LoginModal";
 import { useState } from "react";
+import scrollToSignUp from "./HeroSection";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
 
-  const handleLogin = () => {
-    
-  }
+  const handleOnClose = () => setShowModal(false);
 
   return (
     <header className="w-full flex flex-col justify-center border-b-4 border-orange-500">
@@ -47,7 +46,10 @@ function Header() {
                 </li>
               </ul>
             </nav>
-            <button className="px-4 py-2 ml-6 border font-bold text-orange-50 bg-orange-600 border-2 border-solid border-orange-100 hover:bg-orange-500 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-orange-700">
+            <button
+              onClick={() => setShowModal(true)}
+              className="px-4 py-2 ml-6 border font-bold text-orange-50 bg-orange-600 border-2 border-solid border-orange-100 hover:bg-orange-500 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-orange-700"
+            >
               Login
             </button>
           </div>
@@ -66,7 +68,11 @@ function Header() {
         </div>
       </div>
 
-      <LoginModal />
+      <LoginModal
+        signUp={scrollToSignUp}
+        onClose={handleOnClose}
+        visible={showModal}
+      />
 
       <div className="bg-[url('/images/painted-clouds.webp')] bg-cover">
         <div className="my-4 flex flex-col max-w-4xl m-auto py-3 px-4">

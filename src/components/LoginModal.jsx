@@ -1,9 +1,24 @@
 import React from "react";
 
-function LoginModal() {
+function LoginModal({ visible, onClose }) {
+  if (!visible) return null;
+
+  const handleOnClose = (e) => {
+    if (e.target.id === "container") onClose();
+  };
+
+  const scrollToSignUp = (e) => {
+    onClose();
+    
+  };
+
   return (
-    <div className="fixed hidden inset-0 bg-opacity-50 backdrop-blur-sm bg-gray-900">
-      <div className="py-12 flex flex-col items-center bg-gray-100 bg-opacity-80 w-full m-auto max-w-2xl">
+    <div
+      id="container"
+      onClick={handleOnClose}
+      className=" fixed inset-0 bg-opacity-50 backdrop-blur-sm bg-gray-900 flex"
+    >
+      <div className="py-12 flex flex-col items-center bg-gray-100 bg-opacity-90 w-full m-auto max-w-2xl">
         <div className="flex items-center text-orange-600">
           <div className="rounded-full border border-2 border-orange-400 p-2">
             <svg
@@ -39,7 +54,7 @@ function LoginModal() {
               className="bg-gray-700 mt-4 md:mx-2 border border-gray-600 rounded-lg py-2 px-4 block w-full md:w-1/2"
               type="email"
               placeholder="john@email.com"
-              id="email"
+              name="email"
             />
 
             <label for="title" className="sr-only">
@@ -49,7 +64,7 @@ function LoginModal() {
               className="bg-gray-700 mt-4 md:mx-2 border border-gray-600 rounded-lg py-2 px-4 block w-full md:w-1/2"
               type="password"
               placeholder="Password"
-              id="title"
+              name="password"
             />
           </div>
 
@@ -59,6 +74,12 @@ function LoginModal() {
             </button>
           </div>
         </form>
+        <p id="modalNav" className="text-gray-700 py-4">
+          Not a registered user? Sign-up{" "}
+          <button type="navigate" onClick={scrollToSignUp}>
+            here
+          </button>
+        </p>
       </div>
     </div>
   );

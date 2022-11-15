@@ -2,8 +2,10 @@ import React from "react";
 import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer"; 
+import SignUp from "../components/SignUp";
 
 export default function Home() {
+
   return (
     <div
       id="container"
@@ -11,6 +13,7 @@ export default function Home() {
     >
       <Header />
       <HeroSection />
+      <SignUp />
       <Footer />
     </div>
   );
