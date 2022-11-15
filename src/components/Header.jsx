@@ -2,7 +2,7 @@ import React from "react";
 import LoginModal from "../components/LoginModal";
 import { useState } from "react";
 
-function Header( toSignUp ) {
+function Header() {
   const [showModal, setShowModal] = useState(false);
 
   const handleOnClose = () => {

@@ -7,10 +7,6 @@ function LoginModal({ visible, onClose }) {
     if (e.target.id === "container") onClose();
   };
 
-  const scrollToSignUp = (e) => {
-    onClose();
-  };
-
   return (
     <div
       id="container"
@@ -75,7 +71,7 @@ function LoginModal({ visible, onClose }) {
         </form>
         <p id="modalToSignUp" className="text-gray-700 py-4">
           Not a registered user? Sign-up{" "}
-          <button type="navigate" onClick={scrollToSignUp}>
+          <button>
             here
           </button>
         </p>
