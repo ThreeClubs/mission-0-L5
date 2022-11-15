@@ -69,7 +69,6 @@ function Header() {
       </div>
 
       <LoginModal
-        signUp={scrollToSignUp}
         onClose={handleOnClose}
         visible={showModal}
       />

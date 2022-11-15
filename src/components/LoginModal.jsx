@@ -9,7 +9,7 @@ function LoginModal({ visible, onClose }) {
 
   const scrollToSignUp = (e) => {
     onClose();
-    
+    ssdsd
   };
 
   return (
