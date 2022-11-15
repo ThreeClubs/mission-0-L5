@@ -5,6 +5,7 @@ import Footer from "../components/Footer";
 import SignUp from "../components/SignUp";
 
 export default function Home() {
+
   return (
     <div
       id="container"
