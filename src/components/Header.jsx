@@ -7,7 +7,6 @@ function Header() {
 
   const handleOnClose = () => {
     setShowModal(false)
-    toSignUp()
   };
 
 
@@ -51,7 +50,7 @@ function Header() {
             </nav>
             <button
               onClick={() => setShowModal(true)}
-              className="px-4 py-2 ml-6 border font-bold text-orange-50 bg-orange-600 border-2 border-solid border-orange-100 hover:bg-orange-500 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-orange-700"
+              className="px-4 py-2 ml-6 border font-bold text-orange-50  border-2 border-solid border-orange-50 hover:bg-blue-600 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-orange-700"
             >
               Login
             </button>
