@@ -1,12 +1,15 @@
 import React from "react";
 import LoginModal from "../components/LoginModal";
 import { useState } from "react";
-import scrollToSignUp from "./HeroSection";
 
-function Header() {
+function Header( toSignUp ) {
   const [showModal, setShowModal] = useState(false);
 
-  const handleOnClose = () => setShowModal(false);
+  const handleOnClose = () => {
+    setShowModal(false)
+    toSignUp()
+  };
+
 
   return (
     <header className="w-full flex flex-col justify-center border-b-4 border-orange-500">

@@ -3,8 +3,14 @@ import Header from "../components/Header";
 import HeroSection from "../components/HeroSection";
 import Footer from "../components/Footer";
 import SignUp from "../components/SignUp";
+import { useRef } from "react";
 
 export default function Home() {
+  const ref = useRef(null);
+
+const scrollToSignUp = () => {
+  ref.current?.scrollIntoView({behavior: 'smooth'});
+  };
 
   return (
     <div
@@ -13,7 +19,9 @@ export default function Home() {
     >
       <Header />
       <HeroSection />
-      <SignUp />
+      <div ref={ref} className="w-full">
+        <SignUp  />
+      </div>
       <Footer />
     </div>
   );
