@@ -58,6 +58,7 @@ function Header() {
 
           <button
             type="button"
+            onClick={() => setShowModal(true)}
             className="block text-orange-400 hover:text-orange-300 active:text-orange-500 sm:hidden"
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
