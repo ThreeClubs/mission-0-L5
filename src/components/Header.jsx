@@ -11,11 +11,11 @@ function Header() {
 
 
   return (
-    <header className="w-full flex flex-col justify-center border-b-4 border-orange-500">
+    <header className="w-full flex flex-col justify-center border-b-4 border-amber-500">
       <div className="w-full bg-blue-700 py-3 px-4">
-        <div className="flex items-center justify-between text-orange-500 max-w-4xl m-auto">
+        <div className="flex items-center justify-between text-amber-500 max-w-4xl m-auto">
           <div className="flex items-center">
-            <div className="rounded-full border border-2 border-orange-400 p-2 bg-blue-600">
+            <div className="rounded-full border border-2 border-amber-400 p-2 bg-blue-600">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -37,20 +37,20 @@ function Header() {
           <div className="hidden sm:w-full sm:flex sm:justify-end items-center">
             <nav>
               <ul className="flex items-center">
-                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-orange-400">
+                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-amber-400">
                   Home
                 </li>
-                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-orange-400">
+                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-amber-400">
                   About
                 </li>
-                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-orange-400">
+                <li className="px-4 py-2 border-2 border-blue-700 font-bold hover:bg-blue-600 hover:border-amber-400">
                   Contact Us
                 </li>
               </ul>
             </nav>
             <button
               onClick={() => setShowModal(true)}
-              className="px-4 py-2 ml-6 border font-bold text-orange-50  border-2 border-solid border-orange-50 hover:bg-blue-600 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-orange-700"
+              className="px-4 py-2 ml-6 border font-bold text-amber-50  border-2 border-solid border-amber-50 hover:bg-blue-600 active:text-gray-100 active:border-gray-100 active:text-gray-100 active:bg-amber-700"
             >
               Login
             </button>
@@ -59,7 +59,7 @@ function Header() {
           <button
             type="button"
             onClick={() => setShowModal(true)}
-            className="block text-orange-400 hover:text-orange-300 active:text-orange-500 sm:hidden"
+            className="block text-amber-400 hover:text-amber-300 active:text-amber-500 sm:hidden"
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
               <path
@@ -91,7 +91,7 @@ function Header() {
             ></input>
             <button
               type="submit"
-              className="bg-orange-500 text-gray-100 font-bold mt-2 px-4 py-3 text-xs uppercase sm:w-20 w-11/12"
+              className="bg-amber-500 text-gray-100 font-bold mt-2 px-4 py-3 text-xs uppercase sm:w-20 w-11/12"
             >
               Search
             </button>

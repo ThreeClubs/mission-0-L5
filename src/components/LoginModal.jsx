@@ -14,8 +14,8 @@ function LoginModal({ visible, onClose }) {
       className=" fixed inset-0 bg-opacity-50 backdrop-blur-sm bg-gray-900 flex"
     >
       <div className="py-12 flex flex-col items-center bg-gray-100 bg-opacity-90 w-full m-auto max-w-2xl">
-        <div className="flex items-center text-orange-600">
-          <div className="rounded-full border border-2 border-orange-400 p-2">
+        <div className="flex items-center text-amber-600">
+          <div className="rounded-full border border-2 border-amber-400 p-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -76,15 +76,15 @@ function LoginModal({ visible, onClose }) {
             here
           </button>
         </p>
-        <nav className="w-full pt-2 border-t-2 border-orange-400 sm:hidden">
+        <nav className="w-full pt-2 border-t-2 border-amber-400 sm:hidden">
               <ul className="flex flex-col -mb-6 mx-2">
-                <li className="px-4 py-2 text-orange-500 bg-blue-700 flex justify-center items-center border-2 m-1 border-blue-700 font-bold active:bg-blue-600 active:border-orange-400">
+                <li className="px-4 py-2 text-amber-500 bg-blue-700 flex justify-center items-center border-2 m-1 border-blue-700 font-bold active:bg-blue-600 active:border-amber-400">
                   Home
                 </li>
-                <li className="px-4 py-2 text-orange-500 bg-blue-700 flex justify-center items-center border-2 m-1 border-blue-700 font-bold active:bg-blue-600 active:border-orange-400">
+                <li className="px-4 py-2 text-amber-500 bg-blue-700 flex justify-center items-center border-2 m-1 border-blue-700 font-bold active:bg-blue-600 active:border-amber-400">
                   About
                 </li>
-                <li className="px-4 py-2 text-orange-500 bg-blue-700 flex justify-center items-center border-2 m-1 border-blue-700 font-bold active:bg-blue-600 active:border-orange-400">
+                <li className="px-4 py-2 text-amber-500 bg-blue-700 flex justify-center items-center border-2 m-1 border-blue-700 font-bold active:bg-blue-600 active:border-amber-400">
                   Contact Us
                 </li>
               </ul>
