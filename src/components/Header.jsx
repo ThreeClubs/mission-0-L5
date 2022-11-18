@@ -1,13 +1,13 @@
 import React from "react";
 import LoginModal from "../components/LoginModal";
-import MobileNav from "./MobileNav";
+import MobileNav from "../components/MobileNav";
 import { useState } from "react";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
   const [showMobileNav, setShowMobileNav] = useState(false);
 
-  const handleOnClose = () => {
+  const handleModalOnClose = () => {
     setShowModal(false)
   };
 
@@ -78,12 +78,12 @@ function Header() {
       </div>
 
       <MobileNav
-        visibile={showMobileNav}
-        navToLogin={handleNavToLogin}
+        visible={showMobileNav}
+        onClose={handleNavToLogin}
         />
 
       <LoginModal
-        onClose={handleOnClose}
+        onClose={handleModalOnClose}
         visible={showModal}
       />
 
