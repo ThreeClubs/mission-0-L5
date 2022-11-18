@@ -1,14 +1,20 @@
 import React from "react";
 import LoginModal from "../components/LoginModal";
+import MobileNav from "./MobileNav";
 import { useState } from "react";
 
 function Header() {
   const [showModal, setShowModal] = useState(false);
+  const [showMobileNav, setShowMobileNav] = useState(false);
 
   const handleOnClose = () => {
     setShowModal(false)
   };
 
+  const handleNavToLogin = () => {
+    setShowMobileNav(false)
+    setShowModal(true)
+  }
 
   return (
     <header className="w-full flex flex-col justify-center border-b-4 border-amber-500">
@@ -58,7 +64,7 @@ function Header() {
 
           <button
             type="button"
-            onClick={() => setShowModal(true)}
+            onClick={() => setShowMobileNav(true)}
             className="block text-amber-400 hover:text-amber-300 active:text-amber-500 sm:hidden"
           >
             <svg className="h-6 w-6 fill-current" viewBox="0 0 24 24">
@@ -70,6 +76,11 @@ function Header() {
           </button>
         </div>
       </div>
+
+      <MobileNav
+        visibile={showMobileNav}
+        navToLogin={handleNavToLogin}
+        />
 
       <LoginModal
         onClose={handleOnClose}
